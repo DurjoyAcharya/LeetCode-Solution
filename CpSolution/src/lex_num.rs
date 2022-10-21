@@ -9,5 +9,4 @@ fn lexical_order(n: i32) -> Vec<i32> {
 }
 fn main() {
     lexical_order(15);
-//    println!("01986774784\n");    
 }
