@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/syndicate/Music/LeetCode-Solution/Security/Security/wwwroot/images/logo.jpg",
+      "PackagePath": "staticwebassets/images/logo.jpg"
+    },
+    {
       "Id": "/home/syndicate/Music/LeetCode-Solution/Security/Security/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

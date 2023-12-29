@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AROld5J5xbT0fPZcmLofv6SoFDzV4zKCbLRN8KdJebM=",
+  "Hash": "sz1rcpM96zIaJgXWHoyXeVojhgGDClxrdbffdQ9RwH4=",
   "Source": "Security",
   "BasePath": "_content/Security",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/syndicate/Music/LeetCode-Solution/Security/Security/wwwroot/images/logo.jpg",
+      "SourceId": "Security",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/syndicate/Music/LeetCode-Solution/Security/Security/wwwroot/",
+      "BasePath": "_content/Security",
+      "RelativePath": "images/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.jpg"
     },
     {
       "Identity": "/home/syndicate/Music/LeetCode-Solution/Security/Security/wwwroot/js/site.js",
