@@ -1,0 +1,70 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.LeetCode-Solution.iml
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Build artifacts
+**/bin/
+**/obj/
+**/dist/
+**/Release/
+**/Debug/
+**/*.pdb
+**/*.ilk
+**/*.exe
+**/*.dll
+**/*.xml
+
+# NuGet packages (ignore package directory only if using a package manager)
+**/packages/
+
+# Temporary files
+*.suo
+*.user
+*.cache
+*~
+*.csproj.*.user
+*.sln.docstates
+
+# IDE-specific files
+# Uncomment the relevant section for your IDE:
+
+## Visual Studio
+**/vs/
+
+## Visual Studio Code
+**/.vscode/
+
+## Rider
+**/.rider/
+
+# Local settings
+*.env
+*.secrets
+
+# Logs
+**/logs/
+
+# IDE test results (uncomment if your IDE generates them)
+**/TestResults/
+
+# BenchmarkDotNet artifacts
+**/BenchmarkDotNet.Artifacts/
+
+# Unit test coverage results
+**/coverage/
+
+# Any other IDE-specific or tool-generated files you want to ignore
+
+# Specific files or directories
+# Add your specific files or directories here, e.g.,
+# README.md.draft
+# data/secrets.json

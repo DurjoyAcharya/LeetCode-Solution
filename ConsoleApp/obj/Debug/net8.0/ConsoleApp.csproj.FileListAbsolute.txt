@@ -1,0 +1,15 @@
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/bin/Debug/net8.0/ConsoleApp
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache
+/home/syndicate/Music/LeetCode-Solution/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll
