@@ -51,4 +51,35 @@ public class Solution
 
         return true;
     }
+    //https://leetcode.com/problems/fizz-buzz/
+    public IList<string> FizzBuzz(int n) {
+        string[] answer = new string[n];
+        IList<string> myList = null;
+        for (int i = 1; i <= n; i++)
+        {
+            if (i % 3 == 0 && i % 5 == 0)
+            {
+                answer[i - 1] = "FizzBuzz";
+            }
+            else if (i % 3 == 0)
+            {
+                answer[i - 1] = "Fizz";
+            }
+            else if (i % 5 == 0)
+            {
+                answer[i - 1] = "Buzz";
+            }
+            else
+            {
+                answer[i - 1] = i.ToString();
+            }
+        }
+        myList=answer.ToList();
+        return myList;
+        
+    }
+
+
+
+    
 }

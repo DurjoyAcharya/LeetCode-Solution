@@ -68,9 +68,9 @@ namespace ConsoleApp
    
         public static void Main(string[] args)
         {
-            int[] arr = new[] { 2, 2, 1, 1, 4 };
-            Console.WriteLine(new Solution().SingleNumber(arr));
-
+            // int[] arr = new[] { 2, 2, 1, 1, 4 };
+            // Console.WriteLine(new Solution().SingleNumber(arr));
+            
 
                 
             
