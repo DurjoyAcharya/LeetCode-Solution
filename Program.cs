@@ -16,12 +16,18 @@ public class Program
         builder
             .Services
             .Configure<DbSettings>(builder.Configuration.GetSection("DbSettings"));
+        
         builder.Services.AddControllers();
         builder.Services.AddSingleton<IProductRepository, ProductRepository>();
         builder.Services.AddTransient<IProductService, ProductService>();
+        builder.Services.AddSingleton<IOrderRepository, OrderRepository>();
+        builder.Services.AddTransient<IOrderService, OrderService>();
        
-        builder.Services.AddAuthorization();
+
         
+        
+        
+        builder.Services.AddAuthorization();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
