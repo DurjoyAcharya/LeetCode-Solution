@@ -1,4 +1,7 @@
-using WebBooks.Models;
+//using WebBooks.Models;
+
+using WebBooks.Configurations;
+using WebBooks.Repositories;
 using WebBooks.Services;
 
 namespace WebBooks;
@@ -12,17 +15,17 @@ public class Program
         //connection of mongodb 
         builder
             .Services
-            .Configure<WebBookSettings>(builder.Configuration.GetSection("WebBookDatabase"));
-        builder.Services.AddSingleton<WebBookService>();
+            .Configure<DbSettings>(builder.Configuration.GetSection("DbSettings"));
         builder.Services.AddControllers();
+        builder.Services.AddSingleton<IProductRepository, ProductRepository>();
+        builder.Services.AddTransient<IProductService, ProductService>();
+       
         builder.Services.AddAuthorization();
         
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-
+        
         var app = builder.Build();
-
         
         if (app.Environment.IsDevelopment())
         {
@@ -31,18 +34,7 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-        
         app.UseAuthorization();
-       // app.MapControllers();
-        
-
-        app.MapGet("/weatherforecast", (HttpContext httpContext) =>
-            {
-                var forecast = "ASP.NET 8";
-                return forecast;
-            })
-            .WithName("GetWeatherForecast")
-            .WithOpenApi();
         app.MapControllers();
         app.Run();
     }

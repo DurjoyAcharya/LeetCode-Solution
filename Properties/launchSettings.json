@@ -8,11 +8,6 @@
       "sslPort": 44387
     }
   },
-  "WebBookDatabase":{
-    "ConnectionString": "mongodb://localhost:27017",
-    "DatabaseName": "BookStore",
-    "BooksCollectionName": "Books"
-  },
   "profiles": {
     "http": {
       "commandName": "Project",
