@@ -1,6 +1,7 @@
 @WebBooks_HostAddress = http://localhost:5281
 
-GET {{WebBooks_HostAddress}}/weatherforecast/
+#GET {{WebBooks_HostAddress}}/weatherforecast/
+GET {{WebBooks_HostAddress}}/
 Accept: application/json
 
 ###
