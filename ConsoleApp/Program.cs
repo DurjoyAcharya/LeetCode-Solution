@@ -4,6 +4,7 @@ using System.Threading.Channels;
 using ConsoleApp.CpSol;
 using ConsoleApp.interview;
 using System;
+using System.Runtime.InteropServices.Marshalling;
 namespace ConsoleApp
 {
     internal class Person(string name, int age)
@@ -68,12 +69,9 @@ namespace ConsoleApp
    
         public static void Main(string[] args)
         {
-            // int[] arr = new[] { 2, 2, 1, 1, 4 };
+             int[] arr = new[] { 1,1 };
             // Console.WriteLine(new Solution().SingleNumber(arr));
-            
-
-                
-            
+            new Solution().FindDisappearedNumbers(arr).ToList().ForEach(System.Console.WriteLine);
             
             
             

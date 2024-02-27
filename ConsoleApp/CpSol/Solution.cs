@@ -79,6 +79,38 @@ public class Solution
         
     }
 
+    //https://leetcode.com/explore/featured/card/fun-with-arrays/523/conclusion/3270/
+    public IList<int> FindDisappearedNumbers(int[] nums) {
+    //    IList<int> missingNumbers = new List<int>();
+    //    int actual = nums.ToList().Sum();
+    //    int n=nums.GetLength(0);
+    //    int expected=n*(n+1)/2;
+    //    if (actual==expected-1)
+    //    {
+    //     missingNumbers.Add(actual);
+    //     return missingNumbers;
+    //    }
+      
+    
+    //    for (int i = 1; i < n; i++)
+    //         if (!nums.Contains(i)) missingNumbers.Add(i);
+    //     ((List<int>) missingNumbers).Sort();
+    //     return missingNumbers;
+     HashSet<int> set = new HashSet<int>(nums);
+        List<int> result = new List<int>();
+
+        for (int i = 1; i <= nums.Length; i++)
+        {
+            if (!set.Contains(i))
+            {
+                result.Add(i);
+            }
+        }
+
+        return result;
+    }
+    }
+
 
 
     
