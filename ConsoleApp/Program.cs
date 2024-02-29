@@ -69,11 +69,11 @@ namespace ConsoleApp
    
         public static void Main(string[] args)
         {
-             int[] arr = new[] { 1,1 };
-            // Console.WriteLine(new Solution().SingleNumber(arr));
-            new Solution().FindDisappearedNumbers(arr).ToList().ForEach(System.Console.WriteLine);
+            //  int[] arr = new[] { 1,1 };
+            // // Console.WriteLine(new Solution().SingleNumber(arr));
+            // new Solution().FindDisappearedNumbers(arr).ToList().ForEach(System.Console.WriteLine);
             
-            
+            TimeSpan timeSpan=new TimeSpan();
             
             
             

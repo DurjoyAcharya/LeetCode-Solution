@@ -109,6 +109,19 @@ public class Solution
 
         return result;
     }
+    public  bool IsPowerOfTwo(int n)
+{
+    // Handle negative and zero cases
+    if (n <= 0)
+    {
+        return false;
+    }
+
+    // Check if n has only one set bit using bitwise AND with n-1
+    // If n is a power of two, n-1 will have all bits set to 1 except the least significant bit
+    // Performing AND operation with n-1 will result in 0 only if n is a power of two
+    return (n & (n - 1)) == 0;
+}
     }
 
 
