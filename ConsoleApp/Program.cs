@@ -73,8 +73,8 @@ namespace ConsoleApp
             // // Console.WriteLine(new Solution().SingleNumber(arr));
             // new Solution().FindDisappearedNumbers(arr).ToList().ForEach(System.Console.WriteLine);
             
-            TimeSpan timeSpan=new TimeSpan();
-            
+            // TimeSpan timeSpan=new TimeSpan();
+            System.Console.WriteLine(new LeetCode75().MergeAlternately("abc","pqr"));
             
             
             
