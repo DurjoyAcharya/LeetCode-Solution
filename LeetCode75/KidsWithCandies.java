@@ -8,12 +8,10 @@ public class KidsWithCandies {
         for (int candy:candies){
             maxCandy=Math.max(candy,maxCandy);
         }
-
         for (int i = 0; i < candies.length; i++)
             result.add(candies[i]+extraCandies>=maxCandy);
         return result;
     }
-
     public static void main(String[] args) {
         kidsWithCandies(new int[]{2,8,7},1).forEach(System.out::println);
     }
