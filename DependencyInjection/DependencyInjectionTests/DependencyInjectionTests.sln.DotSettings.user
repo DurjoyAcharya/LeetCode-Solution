@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=09f00b00_002D8648_002D412d_002D98d0_002Df67301be82e9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DrawWhenBothPlayersPickSameOption" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::4ED34C57-2F3B-4A47-A2FA-49D5D01C4E15::.NETFramework,Version=v4.8::DependencyInjectionTests.UserInputHandlerTests.ReturnsCorrectOptionForValidInput&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d4b04107_002Dd2b1_002D48c3_002Dbdfe_002Dc739ed318002/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="InvalidInputHandling" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::4ED34C57-2F3B-4A47-A2FA-49D5D01C4E15::.NETFramework,Version=v4.8::DependencyInjectionTests.RGBGameTests.InvalidInputHandling&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::4ED34C57-2F3B-4A47-A2FA-49D5D01C4E15::.NETFramework,Version=v4.8::DependencyInjectionTests.GameTests.PlaysGameWithMockedDependencies&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::4ED34C57-2F3B-4A47-A2FA-49D5D01C4E15::.NETFramework,Version=v4.8::DependencyInjectionTests.GameTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

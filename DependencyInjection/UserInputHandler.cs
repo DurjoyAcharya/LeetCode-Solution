@@ -8,7 +8,7 @@ namespace DependencyInjection
             do
             {
                 Console.Write($"{Environment.NewLine} Enter Option: (R)ed, (G)reen or (B)lue !");
-                input = Console.ReadLine().ToUpper();
+                input = Console.ReadLine()?.ToUpper();
                 switch (input)
                 {
                     case "R":

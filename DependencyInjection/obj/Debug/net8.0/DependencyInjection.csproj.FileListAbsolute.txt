@@ -13,3 +13,13 @@
 /home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.pdb
 /home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.genruntimeconfig.cache
 /home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/ref/DependencyInjection.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.assert.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.core.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.abstractions.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.assert.pdb
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.assert.xml
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.core.pdb
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.core.xml
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/xunit.abstractions.xml
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.csproj.AssemblyReference.cache
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/Dependen.428E3D85.Up2Date

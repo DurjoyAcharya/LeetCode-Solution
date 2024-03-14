@@ -34,7 +34,7 @@ namespace DependencyInjection
                 }
                 Console.Write($"{Environment.NewLine} Play Again! Press (Y)!");
 
-            } while (Console.ReadLine().ToUpper() == "Y");
+            } while (Console.ReadLine()?.ToUpper() == "Y");
         }
     }
 }

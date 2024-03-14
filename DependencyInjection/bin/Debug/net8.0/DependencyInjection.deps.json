@@ -7,8 +7,36 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "DependencyInjection/1.0.0": {
+        "dependencies": {
+          "xunit.assert": "2.1.0.3179",
+          "xunit.core": "2.1.0.3179"
+        },
         "runtime": {
           "DependencyInjection.dll": {}
+        }
+      },
+      "xunit.assert/2.1.0.3179": {
+        "runtime": {
+          "xunit.assert.dll": {
+            "assemblyVersion": "2.1.0.3179",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "xunit.core/2.1.0.3179": {
+        "runtime": {
+          "xunit.core.dll": {
+            "assemblyVersion": "2.1.0.3179",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "xunit.abstractions/2.0.0.0": {
+        "runtime": {
+          "xunit.abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +44,21 @@
   "libraries": {
     "DependencyInjection/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "xunit.assert/2.1.0.3179": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "xunit.core/2.1.0.3179": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "xunit.abstractions/2.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
