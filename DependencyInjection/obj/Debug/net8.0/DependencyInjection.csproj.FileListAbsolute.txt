@@ -1,0 +1,15 @@
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/DependencyInjection
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/DependencyInjection.deps.json
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/DependencyInjection.runtimeconfig.json
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/DependencyInjection.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/bin/Debug/net8.0/DependencyInjection.pdb
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.AssemblyInfoInputs.cache
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.AssemblyInfo.cs
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.csproj.CoreCompileInputs.cache
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.sourcelink.json
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/refint/DependencyInjection.dll
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.pdb
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/DependencyInjection.genruntimeconfig.cache
+/home/syndicate/Music/LeetCode-Solution/DependencyInjection/obj/Debug/net8.0/ref/DependencyInjection.dll
