@@ -6,7 +6,7 @@ for i in range(1, 365):
     # Randomly select the number of commits for each day
     for j in range(0, randint(1, 10)):
         # Generate the date string for the commit
-        d = str(i) + ' days ago'
+        d = str(i) + ' days'
         
         # Open the file to append the commit information
         with open('/home/syndicate/Music/LeetCode-Solution/hack.lua', 'a') as file:
